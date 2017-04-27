@@ -35,11 +35,11 @@ db.json
 *.sql
 *.sqlite
 logs
-npm-debug.log*
 
-# Optional npm cache directory #
+# NPM related #
 ######################
 .npm
+npm-debug.log*
 
 # Optional REPL history #
 ######################
@@ -91,6 +91,10 @@ tmp
 # VIM swap file #
 ######################
 *.swp
+
+# Webpack related #
+######################
+bundle.js
 
 # Yarn lock file #
 ######################
